@@ -12,8 +12,10 @@ git add <file-name>
 ------
 git commit -m "why you committed"
 ------
-
-* commit the chages
-* push the chages to github or central repo
+* push the chages to github or 
+central repo
+-------
+git push -u origin main
+--------
 
 **naming conventation: use small case with Hyphons(-). No spaces**
