@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Movies=(RRR,Salaar,Kalki)
+Movies=("RRR" "Salaar" "Kalki")
 
 #list of index always starts with 0
 #size of expression is 3
