@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Person=$1
-Person=$2
+Person=Ramesh
+Person=Suresh
 
-echo "$1 is a good"
-echo "$2 is very good"
+echo "$Ramesh is a good"
+echo "$Suresh is very good"
