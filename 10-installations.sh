@@ -14,7 +14,7 @@ fi
 
 dnf install mysql -y
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ]         # $? is checking the pervious command is success or not 
 then
     echo "Installation of mysql is failure"
     exit 1
@@ -24,7 +24,7 @@ fi
 
 dnf install git -y
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ]         # $? is checking the pervious command is success or not 
 then   
     echo "Installation of git is failure"
     exit 1
