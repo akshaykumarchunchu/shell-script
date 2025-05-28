@@ -2,8 +2,8 @@
 
 NAME=("Akshay" "Alekhya" "Anu")
 
-echo "NAME in List is ${0}"
-echo "NAME in List is ${1}"
-echo "NAME in List is ${2}"
+echo "NAME in List is ${NAME[0]}"
+echo "NAME in List is ${NAME[1]}"
+echo "NAME in List is ${NAME[@]}"
 
 
