@@ -3,10 +3,10 @@
 a=$3
 b=$5
 
-if ( $a -gt $b )
+if [ "$a" -gt "$b" ]; 
 then 
-    echo "$a is less then $b"
+    echo "$a is greater than $b"
 else
-    echo "$a is not less then $b"
+    echo "$a is not greater than $b"
 fi
 
