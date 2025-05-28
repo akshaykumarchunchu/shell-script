@@ -1,7 +1,7 @@
 #!/bin/bash
 
-a=$3
-b=$5
+a=$a
+b=$b
 
 if [ $a -lt $b ] 
 then 
