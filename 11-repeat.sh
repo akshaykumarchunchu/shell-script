@@ -1,7 +1,12 @@
 #!/bin/bash
 
-PERSON1=Ramesh
-PERSON2=Suresh
+a=3
+b=5
 
-echo "$PERSON1 is a good"
-echo "$PERSON2 is very good"
+if ( $a -gt $b )
+then 
+    echo "$a is less then $b"
+else
+    echo $a is not less then $b"
+fi
+
