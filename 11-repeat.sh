@@ -3,7 +3,7 @@
 a=$a
 b=$b
 
-if [ $a -lt $b ] 
+if [ $a -gt $b ] 
 then 
     echo "$a is less than $b"
 else
