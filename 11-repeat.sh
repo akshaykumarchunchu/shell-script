@@ -1,12 +1,9 @@
 #!/bin/bash
 
-a=$a
-b=$b
+NAME=("Akshay" "Alekhya" "Anu")
 
-if [ $a -gt $b ] 
-then 
-    echo "$a is less than $b"
-else
-    echo "$a is not less than $b"
-fi
+echo "NAME in List is ${0}"
+echo "NAME in List is ${1}"
+echo "NAME in List is ${2}"
+
 
