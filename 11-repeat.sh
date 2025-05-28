@@ -7,6 +7,6 @@ if ( $a -gt $b )
 then 
     echo "$a is less then $b"
 else
-    echo $a is not less then $b"
+    echo "$a is not less then $b"
 fi
 
